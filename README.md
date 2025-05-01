@@ -21,7 +21,7 @@ AirSketch 2.0 is a virtual painting application that transforms your hand into a
 
 
 
-Drawing in Action![AirSketch 2 0 1](https://github.com/user-attachments/assets/d46026dd-40cd-42ac-a36c-d7fce4cda015)
+Drawing in Action[AirSketch 2 0 1](https://github.com/user-attachments/assets/d46026dd-40cd-42ac-a36c-d7fce4cda015)
 
 Color Selection Interface![AirSketch 2 0 2](https://github.com/user-attachments/assets/09ac695c-ac00-4cd2-bc93-35bee75be450)
 
@@ -52,6 +52,8 @@ To start the virtual drawing tool, run the following command in your terminal:
 python main.py
 ```
 
+---
+
 ## 🧠 How It Works
 
 AirSketch 2.0 uses computer vision to detect your hand gestures and translate them into drawing actions. Here's a breakdown of the logic:
@@ -65,7 +67,7 @@ AirSketch 2.0 uses computer vision to detect your hand gestures and translate th
 
 The core logic is handled in `main.py` with hand tracking provided by the `handtrackingmodule.py` script.
 
-
+---
 
 ## 🗂️ Project Structure
 
