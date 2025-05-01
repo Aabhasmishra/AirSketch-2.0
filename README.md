@@ -1,4 +1,4 @@
-![CALX4](https://github.com/user-attachments/assets/23785617-2b2c-4236-973e-7b8b8a3539dd)# 🖌️ AirSketch 2.0 – Draw with Your Hands!
+# 🖌️ AirSketch 2.0 – Draw with Your Hands!
 
 AirSketch 2.0 is a virtual painting application that transforms your hand into a digital paintbrush. By leveraging computer vision, it allows you to draw in mid-air using your webcam.
 
