@@ -19,14 +19,13 @@ AirSketch 2.0 is a virtual painting application that transforms your hand into a
 
 ## 📸 Screenshots
 
-> Replace the links below with your own hosted image URLs.
 
 
-![Drawing in Action]![AirSketch 2 0 1](https://github.com/user-attachments/assets/d46026dd-40cd-42ac-a36c-d7fce4cda015)
+Drawing in Action![AirSketch 2 0 1](https://github.com/user-attachments/assets/d46026dd-40cd-42ac-a36c-d7fce4cda015)
 
-![Color Selection Interface]![AirSketch 2 0 2](https://github.com/user-attachments/assets/09ac695c-ac00-4cd2-bc93-35bee75be450)
+Color Selection Interface![AirSketch 2 0 2](https://github.com/user-attachments/assets/09ac695c-ac00-4cd2-bc93-35bee75be450)
 
-![Eraser Mode Screenshot]![AirSketch 2 0 3](https://github.com/user-attachments/assets/8ddcc98e-60f2-472b-b07c-a3bcedb8fef9)
+Eraser Mode Screenshot![AirSketch 2 0 3](https://github.com/user-attachments/assets/8ddcc98e-60f2-472b-b07c-a3bcedb8fef9)
 
 ---
 
