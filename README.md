@@ -1,43 +1,76 @@
-## Unleash Your Inner Picasso with Virtual Paint! 
+![CALX4](https://github.com/user-attachments/assets/23785617-2b2c-4236-973e-7b8b8a3539dd)# 🖌️ AirSketch 2.0 – Draw with Your Hands!
 
-Welcome to Virtual Paint, a revolutionary application that transforms your hand into a digital paintbrush! ✨ 
+AirSketch 2.0 is a virtual painting application that transforms your hand into a digital paintbrush. By leveraging computer vision, it allows you to draw in mid-air using your webcam.
 
-**Tired of the limitations of traditional canvases?**   
+---
 
-With Virtual Paint, your imagination is the only boundary.  
+## ✨ Features
 
-**Here's the magic:**
+- 🎨 **Air Drawing**: Draw in the air using your index finger tracked via webcam.
+- 🖌️ **Color Picker**: Activate the color picker by touching the color picker icon with two fingers to select from a range of colors.
+- 🔄 **Undo/Redo**: Easily undo or redo your last strokes to correct mistakes or revisit previous steps.
+- 📏 **Brush Thickness Adjustment**: Modify the thickness of your brush strokes through intuitive gestures.
+- 🧽 **Eraser Mode**: Switch to eraser mode to remove unwanted parts of your drawing.
+- 📷 **Webcam-Based Hand Tracking**: Utilize your webcam to track hand movements in real-time.
+- 🤖 **Powered by OpenCV and MediaPipe**: Leverages advanced computer vision libraries for accurate hand tracking and drawing.
 
-* **Effortless Creation:**  Just wave your hand in front of the webcam and watch your artistic vision come to life!  🪄
-* **Colorful Options:**  Choose from a vibrant palette of red, green, blue, and purple to bring your masterpiece to life.  
-* **Eradicate Mistakes:**  Made a misstep?  No worries!  The handy eraser tool lets you fix any imperfections with a flick of your wrist.  
-* **Intuitive Interface:**  A user-friendly header bar allows you to select your desired color with ease.  
 
-**Ready to unleash your inner artist?**
+---
 
-**Here's what you'll need:**
+## 📸 Screenshots
 
-* The power of Python (version 3.x) 
-* The ever-reliable OpenCV library (installation: `pip install opencv-python`)  
-* A hand tracking module (included, search high and low for `handtrackingmodule.py`!) 👋
+> Replace the links below with your own hosted image URLs.
 
-**Let's get started!**
 
-1. **Clone this repository or download the code.** (We won't judge, both methods are fantastic!)
-2. **Make sure OpenCV is present on your system.** (If not, `pip install opencv-python` is your secret incantation!)
-3. **Unearth the `handtrackingmodule.py` file.** (Remember, it needs to reside alongside the main script!)
-4. **Run the script with the mighty `python main.py` command.** (This is where the magic begins!)
-5. **Open your hand wide before the webcam.** (This activates your digital paintbrush!)
-6. **Two fingers together?** (That's how you select a color from the header bar!)
-7. **A single index finger in action?** (That's your cue to draw or erase on the canvas!)
-8. **Feeling finished? Press 'q' to exit the application.** (But why would you want to stop creating?)
+![Drawing in Action]![AirSketch 2 0 1](https://github.com/user-attachments/assets/d46026dd-40cd-42ac-a36c-d7fce4cda015)
 
-**We believe in the power of your creativity!** 
+![Color Selection Interface]![AirSketch 2 0 2](https://github.com/user-attachments/assets/09ac695c-ac00-4cd2-bc93-35bee75be450)
 
-**Feel free to contribute to this project!**    
+![Eraser Mode Screenshot]![AirSketch 2 0 3](https://github.com/user-attachments/assets/8ddcc98e-60f2-472b-b07c-a3bcedb8fef9)
 
-Whether it's fixing bugs, adding new features, or enhancing the documentation, your contributions are always welcome.  Just send a pull request our way!
+---
 
-**License:**  
+## 🚀 Getting Started
 
-This project is covered under the MIT License.  (See the LICENSE file for the specifics!)
+### Prerequisites
+
+- Python 3.x
+- OpenCV
+
+### Installation
+
+```bash
+git clone https://github.com/Aabhasmishra/AirSketch-2.0.git
+cd AirSketch-2.0
+pip install opencv-python
+```
+
+## 🚀 Running the App
+
+To start the virtual drawing tool, run the following command in your terminal:
+
+```bash
+python main.py
+```
+
+## 🧠 How It Works
+
+AirSketch 2.0 uses computer vision to detect your hand gestures and translate them into drawing actions. Here's a breakdown of the logic:
+
+- 🖐️ **Hand Tracking**: Utilizes MediaPipe to detect and track your hand and fingers using a webcam.
+- ☝️ **Drawing Mode**: When only the index finger is up, it draws on the canvas at the fingertip's position.
+- ✌️ **Selection Mode**: When both the index and middle fingers are up, the app checks if you're selecting a color/tool from the top header area.
+- 🧽 **Eraser Mode**: When the eraser is selected, it draws a thick white line over previous drawings to simulate erasing.
+- 🧠 **Smart Switching**: The system intelligently switches between drawing, selecting, and erasing based on finger gestures.
+- 📸 **Real-Time Rendering**: A transparent canvas is layered on top of the webcam feed to render strokes instantly.
+
+The core logic is handled in `main.py` with hand tracking provided by the `handtrackingmodule.py` script.
+
+
+
+## 🗂️ Project Structure
+
+- `Header/` – Toolbar icons and header UI assets  
+- `handtrackingmodule.py` – Custom module for hand tracking using MediaPipe  
+- `main.py` – Main script with drawing, color selection, undo/redo logic  
+- `README.md` – Project documentation
