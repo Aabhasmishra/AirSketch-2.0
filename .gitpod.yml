@@ -1,8 +1,0 @@
-image: gitpod/workspace-full
-
-tasks:
-  - name: Compile and Run
-    init: |
-      g++ Electronic_Shop.cpp -o ElectronicShop
-    command: |
-      ./ElectronicShop
